@@ -1,0 +1,180 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 24pt;
+  font-weight: 300;
+  text-align: left;
+}
+
+.hero .container {
+  width: 900px;
+}
+
+.container.chart {
+  
+  margin-top: 100px;
+  
+}
+
+.chart {
+  height: 60px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumb.superior{
+  width: 60px;
+  margin-top: 5px;
+}
+
+.thumb.main{
+  width: 70px;
+}
+
+
+.thumb.sub{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+}
+
+.thumb.main img {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.thumb img {
+  border-radius: 100px;
+  width: inherit;
+  height: inherit;
+  margin-bottom: 12px;
+}
+
+.thumb p {
+  width: 100px;
+  text-align: center;
+}
+
+.name {
+  font-size: 10pt;
+  font-weight: 400;
+  margin-bottom: 5px
+}
+
+.job-title {
+  font-size: 7pt;
+  font-weight: 400;
+  opacity: 0.3;
+}
+
+.subordinate {
+  width: 450px !important;
+  height: 50px;
+}
+
+.thumb {
+  transition: 0.2s;
+}
+
+.thumb:hover {
+  transition: 0.2s;
+}
+
+.sub:hover {
+  
+  cursor: pointer;
+  transition: 0.2s;
+  padding-bottom: 80px;
+  transform: scale(2);
+  
+}
+
+.subordinate.container {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 5px;
+}
+
+.subordinate .thumb {
+  position: absolute;
+}
+
+.subordinate .thumb img {
+  border: 2px solid white;
+  margin-bottom: 0;
+}
+
+.container.managers {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.manager-item {
+  
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+}
+
+.manager-item .thumb.superior{
+  margin: 0;
+}
+
+.manager-item .thumb.superior img{
+  margin: 0;
+}
+
+
+.horiz-text {
+  padding-left: 12px;
+}
+
+.circle {
+  
+  position: absolute;
+  background-color: transparent;
+  border: 2px dashed black;
+  border-radius: 100%;
+  opacity: 0.05;
+  transform: translate(-425px, -15px)
+  
+}
+
+#a {
+  width: 230px;
+  height: 230px;
+}
+
+#b {
+  width: 575px;
+  height: 575px;
+}
+
+#c {
+  width: 900px;
+  height: 900px;
+}

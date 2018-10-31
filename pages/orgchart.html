@@ -1,7 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        Orgchart demo
-    </body>
+
+<head>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/orgchart.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+  <script src="../js/orgchart.js"></script>
+</head>
+<body>
+  <div class="hero">
+    <div class="circle" id="a"></div>
+    <div class="circle" id="b"></div>
+    <div class="circle" id="c"></div>
+    <div class="container">
+      <h1 class="title">
+        Organizational Chart
+      </h1>
+    </div>
+    <div class="container chart">
+      
+      <div class="thumb superior">
+        <img src="../img/people/ceo.png">
+        <p class="name">Leonard Livschitz</p>
+        <p class="job-title">Chief Executive Officer</p>
+      </div>      
+      <div class="thumb superior">
+        <img src="../img/people/kozyrkov.jpg">
+        <p class="name">Vadim Kozyrkov</p>
+        <p class="job-title">Senior Vice President of Engineering</p>
+      </div>
+      <img src="../img/Arrow.svg">
+      <div class="thumb main">
+        <img src="../img/people/korsun.jpg">
+        <p class="name">Dmitriy Korsun</p>
+        <p class="job-title">Delivery Director</p>
+      </div>
+      <img src="../img/Arrow.svg">
+      <div class="subordinate container">
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+        <div class="thumb sub">
+        <img src="../img/people/sub-0.png">
+      </div> 
+      </div>
+      
+    </div>
+    <div class="container managers">
+      <div class="manager-item">
+        <div class="thumb superior">
+          <img src="../img/people/kozyrkov.jpg">
+        </div>
+        <div class="horiz-text">
+          <p class="name">Vadim Kozyrkov</p>
+          <p class="job-title">Engineering Manager</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
