@@ -153,6 +153,22 @@
   padding-left: 12px;
 }
 
+#sub-label {
+  position: absolute;
+  z-index: 1000000;
+}
+
+.visible {
+  transition: 0.2s;
+  opacity: 1.0;
+  
+}
+
+.hidden {
+  transition: 0.2s;
+  opacity: 0;
+}
+
 .circle {
   
   position: absolute;
