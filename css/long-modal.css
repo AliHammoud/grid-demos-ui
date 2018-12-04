@@ -1,0 +1,127 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+iframe{
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes fade_delay {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+}
+
+h1 {
+  font-size: 26pt;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.modal .image-ref {
+  font-size: 10pt;
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  animation-fill-mode: forwards;
+  animation-name: fade_delay;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in;
+  
+  display: flex;
+  justify-content: center;
+  
+  overflow-y: scroll;
+}
+
+@keyframes show_modal {
+  from {
+    margin-top: 100rem;
+  }
+  to {
+    margin-top: 5rem;
+  }
+  
+}
+
+.modal {
+  width: 500px;
+  background-color: white;
+  height: 1800px;
+  margin-top: 100rem;
+  
+  border-radius: 7px;
+  padding: 30px;
+  
+  margin-bottom: 5rem;
+  
+  animation-fill-mode: forwards;
+  animation-name: show_modal;
+  animation-duration: 0.25s;
+  animation-delay: 2.5s;
+  animation-timing-function: ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.modal img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.modal p {
+  color: #666;
+  line-height: 1.5rem;
+}
+
+.btn {
+  width: 90px;
+  height: 40px;
+  color: white;
+  background-color: #FF8700;
+  margin-top: auto;
+  align-self: flex-end;
+  
+  border-radius: 4px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

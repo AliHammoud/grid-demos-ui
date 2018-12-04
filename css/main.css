@@ -24,3 +24,7 @@
 .logo {
   width: 350px;
 }
+
+.hero a {
+  padding-bottom: 1rem;
+}
