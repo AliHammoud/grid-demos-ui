@@ -25,6 +25,20 @@
   width: 350px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0077aa;
+}
+
+a:visited { 
+  color: #0077aa;
+}
+
 .hero a {
   padding-bottom: 1rem;
 }
