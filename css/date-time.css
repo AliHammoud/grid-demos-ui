@@ -1,0 +1,49 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+}
+
+.date-time {
+  border: 1px solid #e2e2e2;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt-vals {
+  cursor: pointer;
+}
+
+.date-time .date-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: center
+}
+
+.date-time .time-text {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.separator {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #e2e2e2;
+}
