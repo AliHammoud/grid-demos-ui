@@ -4,6 +4,66 @@
   </head>
   
   <body>
+
+    <div class="nav-back" onclick="window.location.pathname = '../index.html'">
+      <div class="btn-back">
+        <img src="../img/left-chevron-black.svg" class="icon-chevron">
+        <p>Home</p>
+      </div>
+      <img src="../img/gd-design-logo.svg" class="logo">
+      <style>
+        .nav-back {
+          position: absolute;
+          left: 25px;
+          top: 25px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          background-color: transparent;
+          padding-right: 20px;
+          color: black;
+          cursor: pointer;
+        }
+
+        .btn-back {
+          transition: 0.2s;
+          display: flex;
+          align-items: center;
+          margin-right: 20px;
+          padding: 5px;
+          padding-right: 12px;
+          border-radius: 40px;
+
+        }
+
+        .btn-back:hover {
+          background-color: orange;
+        }
+
+        .btn-back p {
+          color: black;
+          font-size: 14px;
+          opacity: 0.5;
+        }
+
+        .nav-back .icon-chevron {
+          width: 12px;
+          height: 12px;
+          margin-right: 5px;
+          opacity: 0.25;
+        }
+
+        .nav-back .logo {
+          width: auto;
+          height: auto;
+          margin-right: 10px;
+        }
+      </style>
+
+    </div>
+    
     <style>
 
       .watermark {
@@ -21,9 +81,8 @@
 
       * {
         z-index: 1;
-        margin: none;
-        padding: none;
         font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
       }
       
       body {
@@ -34,10 +93,15 @@
       
       h1 {
         margin-top: 0;
+        margin-bottom: 10px;
       }
 
       .branded-text {
-        color: #444444;
+        color: #4a4a4a;
+      }
+      
+      .branded-text p {
+        margin-bottom: 30px;
       }
 
       /* Tools ribbon */
@@ -55,7 +119,7 @@
         width: 70%;
         position: relative;
         box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.16);
-        margin-top: 50px;
+        margin-top: 100px;
         background-color: white;
       }
 
@@ -160,12 +224,13 @@
         position: absolute;
         background-color: #FF8700;
         top: 0;
+        z-index: 0;
       }
 
     </style>
     <div class="dummy"></div>
     <div class="welcome">
-
+      
       <img class="watermark" src="http://i66.tinypic.com/9llnoy.png">
       <div class="branded-text">
         <h1>Welcome to the Grid Dynamics Wiki</h1>

@@ -176,7 +176,8 @@
   border: 2px dashed black;
   border-radius: 100%;
   opacity: 0.05;
-  transform: translate(-425px, -15px)
+  transform: translate(-425px, -15px);
+  z-index: -1;
   
 }
 
