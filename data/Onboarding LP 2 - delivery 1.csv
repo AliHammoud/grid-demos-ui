@@ -1,0 +1,11 @@
+User,FirstName,LastName,Last Attempt,Overdue,Up To Date,Completed,Percentage Completed,Date Assigned,Currently Assigned,AssignedBy,Expiration Date,Prerequisites Completed,EmployeeId,CompanyName,Username,Email,Title,CustomField1,CustomField2,CustomField3,CustomField4,CustomField5,CustomField6,CustomField7,CustomField8,CustomField9,CustomField10
+Anton Balashov,Anton,Balashov,,FALSE,TRUE,FALSE,50,12/03/2018,TRUE,Admin,,FALSE,,,abalashov@griddynamics.com,abalashov@griddynamics.com,,,,,,,,,,,
+Anton Dementiev,Anton,Dementiev,05/24/2019,FALSE,TRUE,TRUE,100,12/03/2018,TRUE,Admin,,FALSE,,,adementiev@griddynamics.com,adementiev@griddynamics.com,,,,,,,,,,,
+Dmitry Lanin,Dmitry,Lanin,,FALSE,TRUE,FALSE,9,12/03/2018,TRUE,Admin,,FALSE,,,dlanin@griddynamics.com,dlanin@griddynamics.com,,,,,,,,,,,
+Dmitry Turlychkin,Dmitry,Turlychkin,,FALSE,TRUE,FALSE,75,12/03/2018,TRUE,Admin,,FALSE,,,dturlychkin@griddynamics.com,dturlychkin@griddynamics.com,,,,,,,,,,,
+Dmitry Usanov,Dmitry,Usanov,,FALSE,TRUE,FALSE,9,12/10/2018,TRUE,Admin,,FALSE,,,dusanov@griddynamics.com,dusanov@griddynamics.com,,,,,,,,,,,
+Evgeny Chirkov,Evgeny,Chirkov,05/22/2019,FALSE,TRUE,FALSE,100,05/22/2019,TRUE,Admin,,FALSE,,,echirkov@griddynamics.com,echirkov@griddynamics.com,,,,,,,,,,,
+Maya Parparov,Maya,Parparov,,FALSE,TRUE,FALSE,0,05/14/2019,TRUE,Admin,,FALSE,,,mparparov@griddynamics.com,mparparov@griddynamics.com,,,,,,,,,,,
+Pavel Novikov,Pavel,Novikov,,FALSE,TRUE,FALSE,75,12/03/2018,TRUE,Admin,,FALSE,,,pnovikov@griddynamics.com,pnovikov@griddynamics.com,,,,,,,,,,,
+pivashchenko pivashchenko,pivashchenko,pivashchenko,,FALSE,TRUE,FALSE,36,01/14/2019,TRUE,Admin,,FALSE,,,pivashchenko@griddynamics.com,pivashchenko@griddynamics.com,,ivpeko,,,,,,,,,
+Vladimir Bedrintsev,Vladimir,Bedrintsev,,FALSE,TRUE,FALSE,36,12/03/2018,TRUE,Admin,,FALSE,,,vbedrintsev@griddynamics.com,vbedrintsev@griddynamics.com,,,,,,,,,,,
