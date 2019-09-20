@@ -5,22 +5,29 @@
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <script src="js/main.js"></script>
 </head>
 
 <body>
-  <div class="hero">
-    <img class="logo" src="img/gd-design-logo.svg">
-    <div class="spacer-v">~</div>
-    <a href="pages/orgchart.html">Orgchart</a>
-    <a href="pages/long-modal.html">Long Modal</a>
-    <a href="pages/inline-confirmation.html">Inline Confirmation</a>
-    <a href="pages/zoom-controls.html">Zoom Component</a>
-    <a href="pages/wiki-welcome.html">Wiki Main Page</a>
-    <a href="pages/animated-header.html">Animated SVG Header</a>
-    <a href="pages/pulsating-button.html">Animated Call to Action</a>
-    <a href="pages/date-time.html">Date-time Picker</a>
-    <a href="pages/onboarding-report.html">Onboarding Report</a>
-    <a href="pages/stacking-modals.html">Modal Components</a>
+  <div class="content">
+    <div class="sidebar">
+      <img src="img/gd-design-logo-white.svg" class="logo">
+      <p>List of demos</p>
+      <ul>
+        <li><a onclick="updateIframe('pages/orgchart.html')">Orgchart</a></li>
+        <li><a onclick="updateIframe('pages/long-modal.html')">Long Modal</a></li>
+        <li><a onclick="updateIframe('pages/inline-confirmation.html')"> Inline Confirmation</a></li>
+        <li><a onclick="updateIframe('pages/zoom-controls.html')">Zoom Component</a></li>
+        <li><a onclick="updateIframe('pages/wiki-welcome.html')">Wiki Main Page</a></li>
+        <li><a onclick="updateIframe('pages/animated-header.html')">Animated SVG Header</a></li>
+        <li><a onclick="updateIframe('pages/pulsating-button.html')">Animated Call to Action</a></li>
+        <li><a onclick="updateIframe('pages/date-time.html')">Date-time Picker</a></li>
+        <li><a onclick="updateIframe('pages/stacking-modals.html')">Modal Components</a></li>
+      </ul>
+    </div>
+    <div class="preview">
+      <iframe src="pages/orgchart.html"></iframe>
+    </div>
   </div>
 </body>
 
